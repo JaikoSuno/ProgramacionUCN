@@ -23,6 +23,7 @@ while linea != '':
         menor_total_canciones = cant_canciones
 
     linea = arch.readline().strip()
+arch.close()
 
 if total_albumes != 0:
     print('Hay', total_albumes, 'albumes en total')

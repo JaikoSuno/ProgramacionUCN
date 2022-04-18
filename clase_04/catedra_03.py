@@ -45,6 +45,7 @@ while linea != '':
             nombre_mayor_edad = nombre
 
     linea = arch.readline().strip()
+arch.close()
 
 print('Cantidad total de infractores a la ley:', total_infractores)
 
