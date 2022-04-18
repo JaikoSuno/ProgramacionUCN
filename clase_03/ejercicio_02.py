@@ -1,8 +1,8 @@
 ciudad_mas_empleados = ''  # Nombre de la ciudad con más empleados
-mayor_cant_empleados = 0  # El mayor número de empleados encontrado
+mayor_cant_empleados = -1  # El mayor número de empleados encontrado
 
 nombre_empleado_mayor_edad = ''  # Nombre del empleado de mayor edad entre todas las sucursales
-mayor_edad_empleado = 0  # Edad más alta encontrada
+mayor_edad_empleado = -1  # Edad más alta encontrada
 
 cant_emp_25_30 = 0  # Cantidad de empleados entre 25 y 30 años de edad
 total_emp = 0  # total de empleados (todas las sucursales)
@@ -14,9 +14,9 @@ ciudad_min_ponderacion = ''  # Ciudad con menor ponderacion
 min_ponderacion = 999999  # Ponderacion minima calculada hasta ahora
 
 arch = open('sucursales.txt', 'r')
-line = arch.readline().strip()
-while line != '':
-    items = line.split(',')
+linea = arch.readline().strip()
+while linea != '':
+    items = linea.split(',')
     ciudad = items[0]
     cant_empleados = int(items[1])
 
@@ -28,8 +28,8 @@ while line != '':
 
     sum_edad = 0
     for emp in range(cant_empleados):
-        line = arch.readline().strip()
-        items2 = line.split(',')
+        linea = arch.readline().strip()
+        items2 = linea.split(',')
         nombre = items2[0]
         edad = int(items2[1])
         sum_edad += edad
@@ -52,7 +52,7 @@ while line != '':
 
     print('El promedio de edad de la sucursal', ciudad, 'es:', promedio_edad)
 
-    line = arch.readline().strip()
+    linea = arch.readline().strip()
 
 print('Nombre de la sucursal que tiene la mayor cantidad de empleados:', ciudad_mas_empleados)
 print('Nombre del empleado con la edad mayor entre todas las sucursales', nombre_empleado_mayor_edad)
