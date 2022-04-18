@@ -69,7 +69,7 @@ print(cliente_mayor, 'compro mas kilos para', mayor_tipo_alimento, 'con', mayor_
 print(cliente_menor, 'compro menos kilos para', menor_tipo_alimento, 'con', menor_kilos, 'kg')
 promedio = kilos_purina / cant_purina
 print('El promedio de kilos de alimento para gatos de la marca purina comprados:', promedio)
-porcentaje = cant_otro_alimento / total_alimentos
+porcentaje = (cant_otro_alimento / total_alimentos)*100
 print('Porcentaje de la cantidad de veces que se compro otro tipo de alimento, respecto al total:', porcentaje, '%')
 
 

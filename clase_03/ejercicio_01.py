@@ -47,5 +47,5 @@ promedio = pasajeros_antof_sant/cant_vuelos_antof_sant
 print('Promedio de pasajeros transportados en los vuelos cuyo origen fue Antofagasta o Santiago:', promedio)
 print('Ciudad de destino en la que se transportaron más pasajeros:', destino_mayor)
 print('Ciudad de origen en la que se transportaron menos pasajeros:', origen_menor)
-porcentaje = cant_menor_100/total_vuelos
+porcentaje = (cant_menor_100/total_vuelos)*100
 print('Porcentaje de vuelos que transportaron menos de 100 personas con respecto al total de vuelos:', porcentaje, '%')

@@ -1,0 +1,4 @@
+Alejandro,22,2,4
+Maria,19,2,3
+Alfredo,45,3,3
+Francisca,54,5,6
