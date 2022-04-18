@@ -1,4 +1,4 @@
-# Taller 1 - Sistema de ventas
+# Taller 01 - Sistema de ventas
 #### Año: 2021
 
 Considere que usted debe hacer un sistema de ventas para una empresa. El sistema debe poder procesar

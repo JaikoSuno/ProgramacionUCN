@@ -1,4 +1,4 @@
-# Taller 2 - Conversor de Unidades
+# Taller 02 - Conversor de Unidades
 #### Ano: 2021
 
 Desarrolle un programa de conversor de unidades, que permita pasar distintos tipos de unidades de
