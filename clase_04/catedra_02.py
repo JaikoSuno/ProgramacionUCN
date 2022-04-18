@@ -65,11 +65,22 @@ while nombre != 'fin':
     while nombre == '':
         nombre = input('Ingrese nombre del cliente: ').lower()
 
-print(cliente_mayor, 'compro mas kilos para', mayor_tipo_alimento, 'con', mayor_kilos, 'kg')
-print(cliente_menor, 'compro menos kilos para', menor_tipo_alimento, 'con', menor_kilos, 'kg')
-promedio = kilos_purina / cant_purina
-print('El promedio de kilos de alimento para gatos de la marca purina comprados:', promedio)
-porcentaje = (cant_otro_alimento / total_alimentos)*100
-print('Porcentaje de la cantidad de veces que se compro otro tipo de alimento, respecto al total:', porcentaje, '%')
+if total_alimentos != 0:
+    print(cliente_mayor, 'compro mas kilos para', mayor_tipo_alimento, 'con', mayor_kilos, 'kg')
+    print(cliente_menor, 'compro menos kilos para', menor_tipo_alimento, 'con', menor_kilos, 'kg')
+else:
+    print('No hay compras registradas')
+
+try:
+    promedio = kilos_purina / cant_purina
+    print('El promedio de kilos de alimento para gatos de la marca purina comprados:', promedio)
+except ZeroDivisionError:
+    print('El promedio de kilos de alimento para gatos de la marca purina comprados: 0')
+
+try:
+    porcentaje = (cant_otro_alimento / total_alimentos)*100
+    print('Porcentaje de la cantidad de veces que se compro otro tipo de alimento, respecto al total:', porcentaje, '%')
+except ZeroDivisionError:
+    print('Porcentaje de la cantidad de veces que se compro otro tipo de alimento, respecto al total: 0 %')
 
 

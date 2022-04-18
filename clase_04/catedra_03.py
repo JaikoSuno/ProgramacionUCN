@@ -47,9 +47,18 @@ while linea != '':
     linea = arch.readline().strip()
 
 print('Cantidad total de infractores a la ley:', total_infractores)
-print('Promedio de edad de los infractores:', sum_edad_infractores / total_infractores)
-prom_mascotas_no_inscritas = sum_mascotas_no_inscritas / total_infractores
-print('Promedio de mascotas no inscritas entre todos los infractores:', prom_mascotas_no_inscritas)
+
+try:
+    print('Promedio de edad de los infractores:', sum_edad_infractores / total_infractores)
+except ZeroDivisionError:
+    print('Promedio de edad de los infractores: 0')
+
+try:
+    prom_mascotas_no_inscritas = sum_mascotas_no_inscritas / total_infractores
+    print('Promedio de mascotas no inscritas entre todos los infractores:', prom_mascotas_no_inscritas)
+except ZeroDivisionError:
+    print('Promedio de mascotas no inscritas entre todos los infractores: 0')
+
 print('Nombre del dueño con el mayor numero de mascotas no inscritas:', nombre_mayor_no_inscrito)
 print('Nombre del dueño con el menor numero de mascotas no inscritas:', nombre_menor_no_inscrito)
 print('Nombre de la persona con mas edad entre los dueños no infractores:', nombre_mayor_edad)
