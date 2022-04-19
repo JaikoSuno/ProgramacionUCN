@@ -2,6 +2,8 @@
 
 #### Contenido: Ruteo
 
+#### Dificultad: Media
+
 Rutee manualmente el siguiente código e indique el valor que van tomando las variables. Para ello considere que:
 * Debe identificar todas las variables en el código para las diversas preguntas solicitadas.
 * Para cada variable identificada, anote el nombre de la variable y los valores que va tomando la variable a lo largo
