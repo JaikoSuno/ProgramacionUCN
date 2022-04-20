@@ -86,6 +86,7 @@ b) Que valores toman las variables si x=23 y n=9
 |  1  |  2  |  1  |     |     |     |
 |  2  |  3  | 22  |     |     |     |
 |  3  |  4  |  3  |     |     |     |
+
 c) Que valores toman las variables si x=3 y n=2
 
 |  x  |  y  |  p  |  j  |  c  |  z  |
@@ -93,7 +94,6 @@ c) Que valores toman las variables si x=3 y n=2
 |  1  |  2  |  1  |     |     |     |
 |  2  |  3  | 22  |     |     |     |
 |  3  |  4  |  3  |     |     |     |
-
 
 d) Responda: ¿Exista lineas de código que no se ejecutan? Si su respuesta es si, identifique las lineas ejemplo
 10,11,12, etc. Si su respuesta es no, explique el porque ejemplificando con los valores de x y n.
