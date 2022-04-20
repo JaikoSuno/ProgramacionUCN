@@ -1,0 +1,18 @@
+ME-912;Cuentos de hadas;PRE;6
+UX-188;Literatura Clasica;DEV;1
+CI-023;Fundamentos de la Computacion;PRE;5
+HT-517;Diccionario de Ingles;PRE;7
+OO-653;Medicina Basica;DEV;2
+UX-188;Literatura Clasica;DEV;4
+CI-023;Fundamentos de la Computacion;DEV;1
+OO-653;Medicina Basica;PRE;3
+ME-912;Cuentos de hadas;DEV;3
+CI-023;Fundamentos de la Computacion;DEV;2
+HT-517;Diccionario de Ingles;DEV;3
+ME-912;Cuentos de hadas;DEV;1
+UX-188;Literatura Clasica;PRE;5
+HT-517;Diccionario de Ingles;DEV;1
+OO-653;Medicina Basica;PRE;7
+UX-188;Literatura Clasica;DEV;1
+CI-023;Fundamentos de la Computacion;DEV;1
+HT-517;Diccionario de Ingles;DEV;1

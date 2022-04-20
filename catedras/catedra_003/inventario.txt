@@ -1,0 +1,5 @@
+ME-912;Cuentos de hadas;22;2900
+UX-188;Literatura Clasica;18;81000
+CI-023;Fundamentos de la Computacion;20;34200
+HT-517;Diccionario de Ingles;13;7500
+OO-653;Medicina Basica;17;13000
