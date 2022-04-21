@@ -1,8 +1,7 @@
 # Ejercicio N°1
 
 Como ejercicio se les solicita realizar el programa que resuelva si un alumno esta reprobado o aprobado.
-
-<center><img src="img/img_01.PNG" alt="pseudocodigo"></center>
+<img src="img/img_01.PNG" alt="pseudocodigo">
 
 
 # Ejercicio N°2
